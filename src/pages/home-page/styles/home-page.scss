@@ -1,2 +1,39 @@
 /// Homepage Styles File
 /// Here we import all the Styles files we need for our Homepage.
+/// 
+/// 
+/// 
+
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 150rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    border-radius: var(----regular-border-radius);
+
+    &-description {
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-small);
+    }
+
+    &-btn {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-small); 
+        border-radius: var(--btn-border-radius);
+        border: none;
+    }
+}

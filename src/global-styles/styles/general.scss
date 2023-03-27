@@ -12,8 +12,13 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: 'MyFont';
+    font-family: 'Montserrat', sans-serif;
 
     overflow-x: hidden;
 
+}
+
+.heading-secondary {
+    font-size: var(--font-size-big);
+    font-weight: var(--font-weight-big);
 }
