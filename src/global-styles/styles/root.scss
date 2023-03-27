@@ -3,6 +3,27 @@
 /// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
 
 :root {
-    --color-primary: #5721f2;
-    --color-on-surface: #000;
+
+    //colors
+    --color-blue: #3D63AC;
+    --color-blue-light: #E4E9F3;
+    --color-green: #428A2F;
+    --color-green-light: #E5EFE2;
+    --color-yellow: #B09E3D;
+    --color-yellow-light: #F4F1E4;
+    --color-black: #000;
+    --color-white: #fff;
+
+    //font-sizes
+
+    --font-size-big: 32px;
+    --font-size-medium: 16px;
+    --font-size-small: 12px;
+
+    //font font-weigh
+    --font-weight-big: 700;
+    --font-weight-medium: 600;
+    --font-weight-small: 400;
 }
+
+
